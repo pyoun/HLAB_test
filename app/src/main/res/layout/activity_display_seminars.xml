@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.peter.prac.DisplayHS">
+    tools:context="com.example.peter.prac.DisplaySeminars">
 
     <ListView
-        android:id="@+id/HSlist"
+        android:id="@+id/SeminarList"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:dividerHeight="1dp">

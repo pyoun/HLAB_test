@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button people;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
     // Called when the user taps People button
     public void showPplGrps(View view) {
         Intent intent = new Intent(this, DisplayPplGrps.class);
+        startActivity(intent);
+    }
+
+    // Called when the user taps Seminars button
+    public void showSeminars(View view) {
+        Intent intent = new Intent(this, DisplaySeminars.class);
         startActivity(intent);
     }
 
