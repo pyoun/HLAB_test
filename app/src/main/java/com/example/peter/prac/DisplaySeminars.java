@@ -1,8 +1,12 @@
 package com.example.peter.prac;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 /**
  * Created by Peter on 12/24/2017.
@@ -20,6 +24,10 @@ public class DisplaySeminars extends AppCompatActivity {
     };
     int[] sempics = {R.drawable.music_note, R.drawable.music_note};
 
+    Person Peter = new Person(0,"CM","Peter Youn","Harvard University",22,0);
+    Person Hiro = new Person(1, "EC", "Hiroshi Kawakatsu", "Haverford College",19, 1);
+    Person[] people = { Peter, Hiro };
+
 
 
     @Override
@@ -28,7 +36,22 @@ public class DisplaySeminars extends AppCompatActivity {
         setContentView(R.layout.activity_display_seminars);
 
         lView = (ListView) findViewById(R.id.SeminarList);
-        lAdapter = new SemAdapter(this,seminars,sempics);
+        lAdapter = new SemAdapter(this, seminars, sempics);
         lView.setAdapter(lAdapter);
+
+        lView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent myIntent = new Intent(view.getContext(), DisplaySeminarInfo.class);
+                String pos = parent.getPositionForView(view) + "";
+                myIntent.putExtra("clickpos", pos);
+                startActivityForResult(myIntent, 0);
+            }
+            /*
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                int pos = parent.getPositionForView(view);
+                Toast.makeText(getApplicationContext(), pos + "", Toast.LENGTH_LONG).show();
+            }*/
+        });
     }
 }
