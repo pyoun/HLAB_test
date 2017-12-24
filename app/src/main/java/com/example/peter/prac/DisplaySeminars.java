@@ -17,8 +17,12 @@ public class DisplaySeminars extends AppCompatActivity {
     ListView lView;
     SemAdapter lAdapter;
 
-    Seminar StoryWOWords = new Seminar(0,"Stories without Words","Peter Youn","Hiro Kawakatsu",0);
-    Seminar AnotherSeminar = new Seminar(1,"Another Seminar", "Some CM","Some EC", 1);
+    Seminar StoryWOWords = new Seminar(0,"Stories without Words",
+            "Peter Youn","Hiro Kawakatsu",
+            "This is an introduction to a seminar.",0);
+    Seminar AnotherSeminar = new Seminar(1,"Another Seminar",
+            "Some CM","Some EC",
+            "This is an introduction to a seminar.",1);
     Seminar[] seminars = {
             StoryWOWords, AnotherSeminar
     };
