@@ -8,10 +8,12 @@ public class DisplayHS extends AppCompatActivity {
     ListView lView;
     ListAdapter lAdapter;
 
-    Person Rei = new Person(0, "CM",
-            "Rei Goto", "Syosset High School", 18, 0);
-    Person Yuichiro = new Person(1,"CM",
-            "Yuichiro Namba", "Tokyo Metropolitan Kokusai High School", 17,0);
+    Person Rei = new Person(0, "Rei",
+            "Goto","HS","Syosset High School", 18,
+            "Hi my name is Rei.",0);
+    Person Yuichiro = new Person(1,"Yuichiro",
+            "Namba", "HS","Tokyo Metropolitan Kokusai High School",
+            17,"Hi my name is Yuichiro",0);
     Person[] people = {
             Rei, Yuichiro
     };

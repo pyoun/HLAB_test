@@ -6,24 +6,29 @@ package com.example.peter.prac;
 
 public class Person {
     public int uniqueId = 0;
+    public String firstName = "";
+    public String lastName = "";
     public String role = "";
-    public String name = "";
     public String school = "";
     public int age = 0;
+    public String intro = "";
     public int imageId = 0;
 
-    public Person(int uniqueId, String role, String name, String school, int age, int imageId) {
+    public Person(int uniqueId, String firstName, String lastName, String role, String school,
+                  int age, String intro, int imageId) {
         this.uniqueId = uniqueId;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.role = role;
-        this.name = name;
         this.school = school;
         this.age = age;
+        this.intro = intro;
         this.imageId = imageId;
     }
 
     @Override
     public String toString() {
-        return this.name;
+        return this.firstName + " " + this.lastName;
     }
     public int getImageId() {
         return this.imageId;

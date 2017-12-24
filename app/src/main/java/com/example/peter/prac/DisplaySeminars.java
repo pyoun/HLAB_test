@@ -24,8 +24,12 @@ public class DisplaySeminars extends AppCompatActivity {
     };
     int[] sempics = {R.drawable.music_note, R.drawable.music_note};
 
-    Person Peter = new Person(0,"CM","Peter Youn","Harvard University",22,0);
-    Person Hiro = new Person(1, "EC", "Hiroshi Kawakatsu", "Haverford College",19, 1);
+    Person Peter = new Person(0,"Peter","Youn",
+            "CM","Harvard University",22,
+            "Hi my name is Peter.",0);
+    Person Hiro = new Person(1, "Hiroshi", "Kawakatsu",
+            "EC","Haverford College",19,
+            "Hi my name is Hiro.",1);
     Person[] people = { Peter, Hiro };
 
 

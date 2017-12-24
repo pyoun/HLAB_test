@@ -8,12 +8,14 @@ public class DisplayCM extends AppCompatActivity {
     ListView lView;
     ListAdapter lAdapter;
 
-    Person Peter = new Person(0, "CM",
-            "Peter Youn", "Harvard University", 22, 0);
-    Person Kevin = new Person(1,"CM",
-            "Sien Liu", "University of Gent", 53,0);
+    Person Peter = new Person(0, "Peter",
+            "Youn", "CM", "Harvard University", 22,
+            "Hi my name is Peter Youn.", 0);
+    Person Sien = new Person(1,"Sien",
+            "Liu", "CM","University of Gent", 53,
+            "Hi my name is Sien Liu.",0);
     Person[] people = {
-            Peter, Kevin
+            Peter, Sien
     };
     int[] images = {R.drawable.peter_youn, R.drawable.peter_youn};
 

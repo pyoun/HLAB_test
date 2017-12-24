@@ -8,10 +8,11 @@ public class DisplayEC extends AppCompatActivity {
     ListView lView;
     ListAdapter lAdapter;
 
-    Person Yoshi = new Person(0, "CM",
-            "Tsuyoshi Toshita", "Keio University", 23, 0);
-    Person Karen = new Person(1,"CM",
-            "Karen Matsumoto", "Stony Brook University", 23,0);
+    Person Yoshi = new Person(0, "Tsuyoshi", "Toshita",
+            "EC", "Keio University", 23,"Hi my name is Yoshi.", 0);
+    Person Karen = new Person(1,"Karen",
+            "Matsumoto", "EC","Stony Brook University", 23,
+            "Hi my name is Karen.",0);
     Person[] people = {
             Yoshi, Karen
     };

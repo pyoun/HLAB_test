@@ -57,7 +57,7 @@ public class ListAdapter extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
             result = convertView;
         }
-        String personInfo = values[position].name + "\n"
+        String personInfo = values[position].firstName + " " + values[position].lastName + "\n"
                 + values[position].age + ", " + values[position].school;
         viewHolder.txtName.setText(personInfo);
         viewHolder.icon.setImageResource(images[position]);
