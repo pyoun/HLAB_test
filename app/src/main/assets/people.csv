@@ -1,141 +1,141 @@
-uniqueId,firstName,lastName,role,school,age,intro
-0,ECfirst0,EClast0,EC,ECschool0,20,Insert some amazingly interesting introduction here blahblahblah.
-1,ECfirst1,EClast1,EC,ECschool1,20,Insert some amazingly interesting introduction here blahblahblah.
-2,ECfirst2,EClast2,EC,ECschool2,20,Insert some amazingly interesting introduction here blahblahblah.
-3,ECfirst3,EClast3,EC,ECschool3,20,Insert some amazingly interesting introduction here blahblahblah.
-4,ECfirst4,EClast4,EC,ECschool4,20,Insert some amazingly interesting introduction here blahblahblah.
-5,ECfirst5,EClast5,EC,ECschool5,20,Insert some amazingly interesting introduction here blahblahblah.
-6,ECfirst6,EClast6,EC,ECschool6,20,Insert some amazingly interesting introduction here blahblahblah.
-7,ECfirst7,EClast7,EC,ECschool7,20,Insert some amazingly interesting introduction here blahblahblah.
-8,ECfirst8,EClast8,EC,ECschool8,20,Insert some amazingly interesting introduction here blahblahblah.
-9,ECfirst9,EClast9,EC,ECschool9,20,Insert some amazingly interesting introduction here blahblahblah.
-10,ECfirst10,EClast10,EC,ECschool10,20,Insert some amazingly interesting introduction here blahblahblah.
-11,ECfirst11,EClast11,EC,ECschool11,20,Insert some amazingly interesting introduction here blahblahblah.
-12,ECfirst12,EClast12,EC,ECschool12,20,Insert some amazingly interesting introduction here blahblahblah.
-13,ECfirst13,EClast13,EC,ECschool13,20,Insert some amazingly interesting introduction here blahblahblah.
-14,ECfirst14,EClast14,EC,ECschool14,20,Insert some amazingly interesting introduction here blahblahblah.
-15,ECfirst15,EClast15,EC,ECschool15,20,Insert some amazingly interesting introduction here blahblahblah.
-16,ECfirst16,EClast16,EC,ECschool16,20,Insert some amazingly interesting introduction here blahblahblah.
-17,ECfirst17,EClast17,EC,ECschool17,20,Insert some amazingly interesting introduction here blahblahblah.
-18,ECfirst18,EClast18,EC,ECschool18,20,Insert some amazingly interesting introduction here blahblahblah.
-19,ECfirst19,EClast19,EC,ECschool19,20,Insert some amazingly interesting introduction here blahblahblah.
-20,ECfirst20,EClast20,EC,ECschool20,20,Insert some amazingly interesting introduction here blahblahblah.
-21,ECfirst21,EClast21,EC,ECschool21,20,Insert some amazingly interesting introduction here blahblahblah.
-22,ECfirst22,EClast22,EC,ECschool22,20,Insert some amazingly interesting introduction here blahblahblah.
-23,ECfirst23,EClast23,EC,ECschool23,20,Insert some amazingly interesting introduction here blahblahblah.
-24,ECfirst24,EClast24,EC,ECschool24,20,Insert some amazingly interesting introduction here blahblahblah.
-25,ECfirst25,EClast25,EC,ECschool25,20,Insert some amazingly interesting introduction here blahblahblah.
-26,ECfirst26,EClast26,EC,ECschool26,20,Insert some amazingly interesting introduction here blahblahblah.
-27,ECfirst27,EClast27,EC,ECschool27,20,Insert some amazingly interesting introduction here blahblahblah.
-28,ECfirst28,EClast28,EC,ECschool28,20,Insert some amazingly interesting introduction here blahblahblah.
-29,ECfirst29,EClast29,EC,ECschool29,20,Insert some amazingly interesting introduction here blahblahblah.
-30,ECfirst30,EClast30,EC,ECschool30,20,Insert some amazingly interesting introduction here blahblahblah.
-31,ECfirst31,EClast31,EC,ECschool31,20,Insert some amazingly interesting introduction here blahblahblah.
-32,ECfirst32,EClast32,EC,ECschool32,20,Insert some amazingly interesting introduction here blahblahblah.
-33,ECfirst33,EClast33,EC,ECschool33,20,Insert some amazingly interesting introduction here blahblahblah.
-34,ECfirst34,EClast34,EC,ECschool34,20,Insert some amazingly interesting introduction here blahblahblah.
-35,ECfirst35,EClast35,EC,ECschool35,20,Insert some amazingly interesting introduction here blahblahblah.
-36,ECfirst36,EClast36,EC,ECschool36,20,Insert some amazingly interesting introduction here blahblahblah.
-37,ECfirst37,EClast37,EC,ECschool37,20,Insert some amazingly interesting introduction here blahblahblah.
-38,ECfirst38,EClast38,EC,ECschool38,20,Insert some amazingly interesting introduction here blahblahblah.
-39,ECfirst39,EClast39,EC,ECschool39,20,Insert some amazingly interesting introduction here blahblahblah.
-40,CMfirst0,CMlast0,CM,CMschool0,20,Another interesting introduction here blahblah
-41,CMfirst1,CMlast1,CM,CMschool1,20,Another interesting introduction here blahblah
-42,CMfirst2,CMlast2,CM,CMschool2,20,Another interesting introduction here blahblah
-43,CMfirst3,CMlast3,CM,CMschool3,20,Another interesting introduction here blahblah
-44,CMfirst4,CMlast4,CM,CMschool4,20,Another interesting introduction here blahblah
-45,CMfirst5,CMlast5,CM,CMschool5,20,Another interesting introduction here blahblah
-46,CMfirst6,CMlast6,CM,CMschool6,20,Another interesting introduction here blahblah
-47,CMfirst7,CMlast7,CM,CMschool7,20,Another interesting introduction here blahblah
-48,CMfirst8,CMlast8,CM,CMschool8,20,Another interesting introduction here blahblah
-49,CMfirst9,CMlast9,CM,CMschool9,20,Another interesting introduction here blahblah
-50,CMfirst10,CMlast10,CM,CMschool10,20,Another interesting introduction here blahblah
-51,CMfirst11,CMlast11,CM,CMschool11,20,Another interesting introduction here blahblah
-52,CMfirst12,CMlast12,CM,CMschool12,20,Another interesting introduction here blahblah
-53,CMfirst13,CMlast13,CM,CMschool13,20,Another interesting introduction here blahblah
-54,CMfirst14,CMlast14,CM,CMschool14,20,Another interesting introduction here blahblah
-55,CMfirst15,CMlast15,CM,CMschool15,20,Another interesting introduction here blahblah
-56,CMfirst16,CMlast16,CM,CMschool16,20,Another interesting introduction here blahblah
-57,CMfirst17,CMlast17,CM,CMschool17,20,Another interesting introduction here blahblah
-58,CMfirst18,CMlast18,CM,CMschool18,20,Another interesting introduction here blahblah
-59,CMfirst19,CMlast19,CM,CMschool19,20,Another interesting introduction here blahblah
-60,HSfirst0,HSlast0,HS,HSschool0,17,High school students so excited to be at HLAB blahblah
-61,HSfirst1,HSlast1,HS,HSschool1,17,High school students so excited to be at HLAB blahblah
-62,HSfirst2,HSlast2,HS,HSschool2,17,High school students so excited to be at HLAB blahblah
-63,HSfirst3,HSlast3,HS,HSschool3,17,High school students so excited to be at HLAB blahblah
-64,HSfirst4,HSlast4,HS,HSschool4,17,High school students so excited to be at HLAB blahblah
-65,HSfirst5,HSlast5,HS,HSschool5,17,High school students so excited to be at HLAB blahblah
-66,HSfirst6,HSlast6,HS,HSschool6,17,High school students so excited to be at HLAB blahblah
-67,HSfirst7,HSlast7,HS,HSschool7,17,High school students so excited to be at HLAB blahblah
-68,HSfirst8,HSlast8,HS,HSschool8,17,High school students so excited to be at HLAB blahblah
-69,HSfirst9,HSlast9,HS,HSschool9,17,High school students so excited to be at HLAB blahblah
-70,HSfirst10,HSlast10,HS,HSschool10,17,High school students so excited to be at HLAB blahblah
-71,HSfirst11,HSlast11,HS,HSschool11,17,High school students so excited to be at HLAB blahblah
-72,HSfirst12,HSlast12,HS,HSschool12,17,High school students so excited to be at HLAB blahblah
-73,HSfirst13,HSlast13,HS,HSschool13,17,High school students so excited to be at HLAB blahblah
-74,HSfirst14,HSlast14,HS,HSschool14,17,High school students so excited to be at HLAB blahblah
-75,HSfirst15,HSlast15,HS,HSschool15,17,High school students so excited to be at HLAB blahblah
-76,HSfirst16,HSlast16,HS,HSschool16,17,High school students so excited to be at HLAB blahblah
-77,HSfirst17,HSlast17,HS,HSschool17,17,High school students so excited to be at HLAB blahblah
-78,HSfirst18,HSlast18,HS,HSschool18,17,High school students so excited to be at HLAB blahblah
-79,HSfirst19,HSlast19,HS,HSschool19,17,High school students so excited to be at HLAB blahblah
-80,HSfirst20,HSlast20,HS,HSschool20,17,High school students so excited to be at HLAB blahblah
-81,HSfirst21,HSlast21,HS,HSschool21,17,High school students so excited to be at HLAB blahblah
-82,HSfirst22,HSlast22,HS,HSschool22,17,High school students so excited to be at HLAB blahblah
-83,HSfirst23,HSlast23,HS,HSschool23,17,High school students so excited to be at HLAB blahblah
-84,HSfirst24,HSlast24,HS,HSschool24,17,High school students so excited to be at HLAB blahblah
-85,HSfirst25,HSlast25,HS,HSschool25,17,High school students so excited to be at HLAB blahblah
-86,HSfirst26,HSlast26,HS,HSschool26,17,High school students so excited to be at HLAB blahblah
-87,HSfirst27,HSlast27,HS,HSschool27,17,High school students so excited to be at HLAB blahblah
-88,HSfirst28,HSlast28,HS,HSschool28,17,High school students so excited to be at HLAB blahblah
-89,HSfirst29,HSlast29,HS,HSschool29,17,High school students so excited to be at HLAB blahblah
-90,HSfirst30,HSlast30,HS,HSschool30,17,High school students so excited to be at HLAB blahblah
-91,HSfirst31,HSlast31,HS,HSschool31,17,High school students so excited to be at HLAB blahblah
-92,HSfirst32,HSlast32,HS,HSschool32,17,High school students so excited to be at HLAB blahblah
-93,HSfirst33,HSlast33,HS,HSschool33,17,High school students so excited to be at HLAB blahblah
-94,HSfirst34,HSlast34,HS,HSschool34,17,High school students so excited to be at HLAB blahblah
-95,HSfirst35,HSlast35,HS,HSschool35,17,High school students so excited to be at HLAB blahblah
-96,HSfirst36,HSlast36,HS,HSschool36,17,High school students so excited to be at HLAB blahblah
-97,HSfirst37,HSlast37,HS,HSschool37,17,High school students so excited to be at HLAB blahblah
-98,HSfirst38,HSlast38,HS,HSschool38,17,High school students so excited to be at HLAB blahblah
-99,HSfirst39,HSlast39,HS,HSschool39,17,High school students so excited to be at HLAB blahblah
-100,HSfirst40,HSlast40,HS,HSschool40,17,High school students so excited to be at HLAB blahblah
-101,HSfirst41,HSlast41,HS,HSschool41,17,High school students so excited to be at HLAB blahblah
-102,HSfirst42,HSlast42,HS,HSschool42,17,High school students so excited to be at HLAB blahblah
-103,HSfirst43,HSlast43,HS,HSschool43,17,High school students so excited to be at HLAB blahblah
-104,HSfirst44,HSlast44,HS,HSschool44,17,High school students so excited to be at HLAB blahblah
-105,HSfirst45,HSlast45,HS,HSschool45,17,High school students so excited to be at HLAB blahblah
-106,HSfirst46,HSlast46,HS,HSschool46,17,High school students so excited to be at HLAB blahblah
-107,HSfirst47,HSlast47,HS,HSschool47,17,High school students so excited to be at HLAB blahblah
-108,HSfirst48,HSlast48,HS,HSschool48,17,High school students so excited to be at HLAB blahblah
-109,HSfirst49,HSlast49,HS,HSschool49,17,High school students so excited to be at HLAB blahblah
-110,HSfirst50,HSlast50,HS,HSschool50,17,High school students so excited to be at HLAB blahblah
-111,HSfirst51,HSlast51,HS,HSschool51,17,High school students so excited to be at HLAB blahblah
-112,HSfirst52,HSlast52,HS,HSschool52,17,High school students so excited to be at HLAB blahblah
-113,HSfirst53,HSlast53,HS,HSschool53,17,High school students so excited to be at HLAB blahblah
-114,HSfirst54,HSlast54,HS,HSschool54,17,High school students so excited to be at HLAB blahblah
-115,HSfirst55,HSlast55,HS,HSschool55,17,High school students so excited to be at HLAB blahblah
-116,HSfirst56,HSlast56,HS,HSschool56,17,High school students so excited to be at HLAB blahblah
-117,HSfirst57,HSlast57,HS,HSschool57,17,High school students so excited to be at HLAB blahblah
-118,HSfirst58,HSlast58,HS,HSschool58,17,High school students so excited to be at HLAB blahblah
-119,HSfirst59,HSlast59,HS,HSschool59,17,High school students so excited to be at HLAB blahblah
-120,HSfirst60,HSlast60,HS,HSschool60,17,High school students so excited to be at HLAB blahblah
-121,HSfirst61,HSlast61,HS,HSschool61,17,High school students so excited to be at HLAB blahblah
-122,HSfirst62,HSlast62,HS,HSschool62,17,High school students so excited to be at HLAB blahblah
-123,HSfirst63,HSlast63,HS,HSschool63,17,High school students so excited to be at HLAB blahblah
-124,HSfirst64,HSlast64,HS,HSschool64,17,High school students so excited to be at HLAB blahblah
-125,HSfirst65,HSlast65,HS,HSschool65,17,High school students so excited to be at HLAB blahblah
-126,HSfirst66,HSlast66,HS,HSschool66,17,High school students so excited to be at HLAB blahblah
-127,HSfirst67,HSlast67,HS,HSschool67,17,High school students so excited to be at HLAB blahblah
-128,HSfirst68,HSlast68,HS,HSschool68,17,High school students so excited to be at HLAB blahblah
-129,HSfirst69,HSlast69,HS,HSschool69,17,High school students so excited to be at HLAB blahblah
-130,HSfirst70,HSlast70,HS,HSschool70,17,High school students so excited to be at HLAB blahblah
-131,HSfirst71,HSlast71,HS,HSschool71,17,High school students so excited to be at HLAB blahblah
-132,HSfirst72,HSlast72,HS,HSschool72,17,High school students so excited to be at HLAB blahblah
-133,HSfirst73,HSlast73,HS,HSschool73,17,High school students so excited to be at HLAB blahblah
-134,HSfirst74,HSlast74,HS,HSschool74,17,High school students so excited to be at HLAB blahblah
-135,HSfirst75,HSlast75,HS,HSschool75,17,High school students so excited to be at HLAB blahblah
-136,HSfirst76,HSlast76,HS,HSschool76,17,High school students so excited to be at HLAB blahblah
-137,HSfirst77,HSlast77,HS,HSschool77,17,High school students so excited to be at HLAB blahblah
-138,HSfirst78,HSlast78,HS,HSschool78,17,High school students so excited to be at HLAB blahblah
-139,HSfirst79,HSlast79,HS,HSschool79,17,High school students so excited to be at HLAB blahblah
+uniqueId,firstName,lastName,role,school,age,intro,seminarId
+0,ECfirst0,EClast0,EC,ECschool0,20,Insert some amazingly interesting introduction here blahblahblah.,
+1,ECfirst1,EClast1,EC,ECschool1,20,Insert some amazingly interesting introduction here blahblahblah.,
+2,ECfirst2,EClast2,EC,ECschool2,20,Insert some amazingly interesting introduction here blahblahblah.,
+3,ECfirst3,EClast3,EC,ECschool3,20,Insert some amazingly interesting introduction here blahblahblah.,
+4,ECfirst4,EClast4,EC,ECschool4,20,Insert some amazingly interesting introduction here blahblahblah.,
+5,ECfirst5,EClast5,EC,ECschool5,20,Insert some amazingly interesting introduction here blahblahblah.,
+6,ECfirst6,EClast6,EC,ECschool6,20,Insert some amazingly interesting introduction here blahblahblah.,
+7,ECfirst7,EClast7,EC,ECschool7,20,Insert some amazingly interesting introduction here blahblahblah.,
+8,ECfirst8,EClast8,EC,ECschool8,20,Insert some amazingly interesting introduction here blahblahblah.,
+9,ECfirst9,EClast9,EC,ECschool9,20,Insert some amazingly interesting introduction here blahblahblah.,
+10,ECfirst10,EClast10,EC,ECschool10,20,Insert some amazingly interesting introduction here blahblahblah.,
+11,ECfirst11,EClast11,EC,ECschool11,20,Insert some amazingly interesting introduction here blahblahblah.,
+12,ECfirst12,EClast12,EC,ECschool12,20,Insert some amazingly interesting introduction here blahblahblah.,
+13,ECfirst13,EClast13,EC,ECschool13,20,Insert some amazingly interesting introduction here blahblahblah.,
+14,ECfirst14,EClast14,EC,ECschool14,20,Insert some amazingly interesting introduction here blahblahblah.,
+15,ECfirst15,EClast15,EC,ECschool15,20,Insert some amazingly interesting introduction here blahblahblah.,
+16,ECfirst16,EClast16,EC,ECschool16,20,Insert some amazingly interesting introduction here blahblahblah.,
+17,ECfirst17,EClast17,EC,ECschool17,20,Insert some amazingly interesting introduction here blahblahblah.,
+18,ECfirst18,EClast18,EC,ECschool18,20,Insert some amazingly interesting introduction here blahblahblah.,
+19,ECfirst19,EClast19,EC,ECschool19,20,Insert some amazingly interesting introduction here blahblahblah.,
+20,ECfirst20,EClast20,EC,ECschool20,20,Insert some amazingly interesting introduction here blahblahblah.,
+21,ECfirst21,EClast21,EC,ECschool21,20,Insert some amazingly interesting introduction here blahblahblah.,
+22,ECfirst22,EClast22,EC,ECschool22,20,Insert some amazingly interesting introduction here blahblahblah.,
+23,ECfirst23,EClast23,EC,ECschool23,20,Insert some amazingly interesting introduction here blahblahblah.,
+24,ECfirst24,EClast24,EC,ECschool24,20,Insert some amazingly interesting introduction here blahblahblah.,
+25,ECfirst25,EClast25,EC,ECschool25,20,Insert some amazingly interesting introduction here blahblahblah.,
+26,ECfirst26,EClast26,EC,ECschool26,20,Insert some amazingly interesting introduction here blahblahblah.,
+27,ECfirst27,EClast27,EC,ECschool27,20,Insert some amazingly interesting introduction here blahblahblah.,
+28,ECfirst28,EClast28,EC,ECschool28,20,Insert some amazingly interesting introduction here blahblahblah.,
+29,ECfirst29,EClast29,EC,ECschool29,20,Insert some amazingly interesting introduction here blahblahblah.,
+30,ECfirst30,EClast30,EC,ECschool30,20,Insert some amazingly interesting introduction here blahblahblah.,
+31,ECfirst31,EClast31,EC,ECschool31,20,Insert some amazingly interesting introduction here blahblahblah.,
+32,ECfirst32,EClast32,EC,ECschool32,20,Insert some amazingly interesting introduction here blahblahblah.,
+33,ECfirst33,EClast33,EC,ECschool33,20,Insert some amazingly interesting introduction here blahblahblah.,
+34,ECfirst34,EClast34,EC,ECschool34,20,Insert some amazingly interesting introduction here blahblahblah.,
+35,ECfirst35,EClast35,EC,ECschool35,20,Insert some amazingly interesting introduction here blahblahblah.,
+36,ECfirst36,EClast36,EC,ECschool36,20,Insert some amazingly interesting introduction here blahblahblah.,
+37,ECfirst37,EClast37,EC,ECschool37,20,Insert some amazingly interesting introduction here blahblahblah.,
+38,ECfirst38,EClast38,EC,ECschool38,20,Insert some amazingly interesting introduction here blahblahblah.,
+39,ECfirst39,EClast39,EC,ECschool39,20,Insert some amazingly interesting introduction here blahblahblah.,
+40,CMfirst0,CMlast0,CM,CMschool0,20,Another interesting introduction here blahblah,40
+41,CMfirst1,CMlast1,CM,CMschool1,20,Another interesting introduction here blahblah,41
+42,CMfirst2,CMlast2,CM,CMschool2,20,Another interesting introduction here blahblah,42
+43,CMfirst3,CMlast3,CM,CMschool3,20,Another interesting introduction here blahblah,43
+44,CMfirst4,CMlast4,CM,CMschool4,20,Another interesting introduction here blahblah,44
+45,CMfirst5,CMlast5,CM,CMschool5,20,Another interesting introduction here blahblah,45
+46,CMfirst6,CMlast6,CM,CMschool6,20,Another interesting introduction here blahblah,46
+47,CMfirst7,CMlast7,CM,CMschool7,20,Another interesting introduction here blahblah,47
+48,CMfirst8,CMlast8,CM,CMschool8,20,Another interesting introduction here blahblah,48
+49,CMfirst9,CMlast9,CM,CMschool9,20,Another interesting introduction here blahblah,49
+50,CMfirst10,CMlast10,CM,CMschool10,20,Another interesting introduction here blahblah,50
+51,CMfirst11,CMlast11,CM,CMschool11,20,Another interesting introduction here blahblah,51
+52,CMfirst12,CMlast12,CM,CMschool12,20,Another interesting introduction here blahblah,52
+53,CMfirst13,CMlast13,CM,CMschool13,20,Another interesting introduction here blahblah,53
+54,CMfirst14,CMlast14,CM,CMschool14,20,Another interesting introduction here blahblah,54
+55,CMfirst15,CMlast15,CM,CMschool15,20,Another interesting introduction here blahblah,55
+56,CMfirst16,CMlast16,CM,CMschool16,20,Another interesting introduction here blahblah,56
+57,CMfirst17,CMlast17,CM,CMschool17,20,Another interesting introduction here blahblah,57
+58,CMfirst18,CMlast18,CM,CMschool18,20,Another interesting introduction here blahblah,58
+59,CMfirst19,CMlast19,CM,CMschool19,20,Another interesting introduction here blahblah,59
+60,HSfirst0,HSlast0,HS,HSschool0,17,High school students so excited to be at HLAB blahblah,"12,6"
+61,HSfirst1,HSlast1,HS,HSschool1,17,High school students so excited to be at HLAB blahblah,"5,19"
+62,HSfirst2,HSlast2,HS,HSschool2,17,High school students so excited to be at HLAB blahblah,"12,14"
+63,HSfirst3,HSlast3,HS,HSschool3,17,High school students so excited to be at HLAB blahblah,"11,13"
+64,HSfirst4,HSlast4,HS,HSschool4,17,High school students so excited to be at HLAB blahblah,"15,13"
+65,HSfirst5,HSlast5,HS,HSschool5,17,High school students so excited to be at HLAB blahblah,"11,8"
+66,HSfirst6,HSlast6,HS,HSschool6,17,High school students so excited to be at HLAB blahblah,"16,14"
+67,HSfirst7,HSlast7,HS,HSschool7,17,High school students so excited to be at HLAB blahblah,"4,19"
+68,HSfirst8,HSlast8,HS,HSschool8,17,High school students so excited to be at HLAB blahblah,"10,5"
+69,HSfirst9,HSlast9,HS,HSschool9,17,High school students so excited to be at HLAB blahblah,"6,13"
+70,HSfirst10,HSlast10,HS,HSschool10,17,High school students so excited to be at HLAB blahblah,"14,7"
+71,HSfirst11,HSlast11,HS,HSschool11,17,High school students so excited to be at HLAB blahblah,"5,8"
+72,HSfirst12,HSlast12,HS,HSschool12,17,High school students so excited to be at HLAB blahblah,"6,14"
+73,HSfirst13,HSlast13,HS,HSschool13,17,High school students so excited to be at HLAB blahblah,"7,18"
+74,HSfirst14,HSlast14,HS,HSschool14,17,High school students so excited to be at HLAB blahblah,"19,16"
+75,HSfirst15,HSlast15,HS,HSschool15,17,High school students so excited to be at HLAB blahblah,"18,2"
+76,HSfirst16,HSlast16,HS,HSschool16,17,High school students so excited to be at HLAB blahblah,"4,16"
+77,HSfirst17,HSlast17,HS,HSschool17,17,High school students so excited to be at HLAB blahblah,"10,6"
+78,HSfirst18,HSlast18,HS,HSschool18,17,High school students so excited to be at HLAB blahblah,"17,11"
+79,HSfirst19,HSlast19,HS,HSschool19,17,High school students so excited to be at HLAB blahblah,"2,4"
+80,HSfirst20,HSlast20,HS,HSschool20,17,High school students so excited to be at HLAB blahblah,"19,16"
+81,HSfirst21,HSlast21,HS,HSschool21,17,High school students so excited to be at HLAB blahblah,"16,8"
+82,HSfirst22,HSlast22,HS,HSschool22,17,High school students so excited to be at HLAB blahblah,"15,16"
+83,HSfirst23,HSlast23,HS,HSschool23,17,High school students so excited to be at HLAB blahblah,"19,8"
+84,HSfirst24,HSlast24,HS,HSschool24,17,High school students so excited to be at HLAB blahblah,"17,0"
+85,HSfirst25,HSlast25,HS,HSschool25,17,High school students so excited to be at HLAB blahblah,"4,14"
+86,HSfirst26,HSlast26,HS,HSschool26,17,High school students so excited to be at HLAB blahblah,"19,12"
+87,HSfirst27,HSlast27,HS,HSschool27,17,High school students so excited to be at HLAB blahblah,"17,9"
+88,HSfirst28,HSlast28,HS,HSschool28,17,High school students so excited to be at HLAB blahblah,"18,11"
+89,HSfirst29,HSlast29,HS,HSschool29,17,High school students so excited to be at HLAB blahblah,"3,11"
+90,HSfirst30,HSlast30,HS,HSschool30,17,High school students so excited to be at HLAB blahblah,"18,1"
+91,HSfirst31,HSlast31,HS,HSschool31,17,High school students so excited to be at HLAB blahblah,"4,8"
+92,HSfirst32,HSlast32,HS,HSschool32,17,High school students so excited to be at HLAB blahblah,"2,0"
+93,HSfirst33,HSlast33,HS,HSschool33,17,High school students so excited to be at HLAB blahblah,"16,5"
+94,HSfirst34,HSlast34,HS,HSschool34,17,High school students so excited to be at HLAB blahblah,"11,5"
+95,HSfirst35,HSlast35,HS,HSschool35,17,High school students so excited to be at HLAB blahblah,"13,1"
+96,HSfirst36,HSlast36,HS,HSschool36,17,High school students so excited to be at HLAB blahblah,"9,11"
+97,HSfirst37,HSlast37,HS,HSschool37,17,High school students so excited to be at HLAB blahblah,"19,4"
+98,HSfirst38,HSlast38,HS,HSschool38,17,High school students so excited to be at HLAB blahblah,"7,5"
+99,HSfirst39,HSlast39,HS,HSschool39,17,High school students so excited to be at HLAB blahblah,"14,6"
+100,HSfirst40,HSlast40,HS,HSschool40,17,High school students so excited to be at HLAB blahblah,"4,10"
+101,HSfirst41,HSlast41,HS,HSschool41,17,High school students so excited to be at HLAB blahblah,"16,18"
+102,HSfirst42,HSlast42,HS,HSschool42,17,High school students so excited to be at HLAB blahblah,"0,11"
+103,HSfirst43,HSlast43,HS,HSschool43,17,High school students so excited to be at HLAB blahblah,"11,11"
+104,HSfirst44,HSlast44,HS,HSschool44,17,High school students so excited to be at HLAB blahblah,"0,12"
+105,HSfirst45,HSlast45,HS,HSschool45,17,High school students so excited to be at HLAB blahblah,"6,8"
+106,HSfirst46,HSlast46,HS,HSschool46,17,High school students so excited to be at HLAB blahblah,"16,14"
+107,HSfirst47,HSlast47,HS,HSschool47,17,High school students so excited to be at HLAB blahblah,"19,8"
+108,HSfirst48,HSlast48,HS,HSschool48,17,High school students so excited to be at HLAB blahblah,"3,8"
+109,HSfirst49,HSlast49,HS,HSschool49,17,High school students so excited to be at HLAB blahblah,"12,10"
+110,HSfirst50,HSlast50,HS,HSschool50,17,High school students so excited to be at HLAB blahblah,"13,17"
+111,HSfirst51,HSlast51,HS,HSschool51,17,High school students so excited to be at HLAB blahblah,"15,0"
+112,HSfirst52,HSlast52,HS,HSschool52,17,High school students so excited to be at HLAB blahblah,"10,1"
+113,HSfirst53,HSlast53,HS,HSschool53,17,High school students so excited to be at HLAB blahblah,"1,10"
+114,HSfirst54,HSlast54,HS,HSschool54,17,High school students so excited to be at HLAB blahblah,"15,7"
+115,HSfirst55,HSlast55,HS,HSschool55,17,High school students so excited to be at HLAB blahblah,"9,2"
+116,HSfirst56,HSlast56,HS,HSschool56,17,High school students so excited to be at HLAB blahblah,"8,6"
+117,HSfirst57,HSlast57,HS,HSschool57,17,High school students so excited to be at HLAB blahblah,"6,9"
+118,HSfirst58,HSlast58,HS,HSschool58,17,High school students so excited to be at HLAB blahblah,"12,7"
+119,HSfirst59,HSlast59,HS,HSschool59,17,High school students so excited to be at HLAB blahblah,"3,12"
+120,HSfirst60,HSlast60,HS,HSschool60,17,High school students so excited to be at HLAB blahblah,"1,17"
+121,HSfirst61,HSlast61,HS,HSschool61,17,High school students so excited to be at HLAB blahblah,"11,6"
+122,HSfirst62,HSlast62,HS,HSschool62,17,High school students so excited to be at HLAB blahblah,"8,4"
+123,HSfirst63,HSlast63,HS,HSschool63,17,High school students so excited to be at HLAB blahblah,"14,12"
+124,HSfirst64,HSlast64,HS,HSschool64,17,High school students so excited to be at HLAB blahblah,"8,15"
+125,HSfirst65,HSlast65,HS,HSschool65,17,High school students so excited to be at HLAB blahblah,"11,19"
+126,HSfirst66,HSlast66,HS,HSschool66,17,High school students so excited to be at HLAB blahblah,"17,8"
+127,HSfirst67,HSlast67,HS,HSschool67,17,High school students so excited to be at HLAB blahblah,"6,10"
+128,HSfirst68,HSlast68,HS,HSschool68,17,High school students so excited to be at HLAB blahblah,"14,0"
+129,HSfirst69,HSlast69,HS,HSschool69,17,High school students so excited to be at HLAB blahblah,"17,1"
+130,HSfirst70,HSlast70,HS,HSschool70,17,High school students so excited to be at HLAB blahblah,"14,17"
+131,HSfirst71,HSlast71,HS,HSschool71,17,High school students so excited to be at HLAB blahblah,"0,5"
+132,HSfirst72,HSlast72,HS,HSschool72,17,High school students so excited to be at HLAB blahblah,"18,11"
+133,HSfirst73,HSlast73,HS,HSschool73,17,High school students so excited to be at HLAB blahblah,"17,2"
+134,HSfirst74,HSlast74,HS,HSschool74,17,High school students so excited to be at HLAB blahblah,"6,7"
+135,HSfirst75,HSlast75,HS,HSschool75,17,High school students so excited to be at HLAB blahblah,"17,3"
+136,HSfirst76,HSlast76,HS,HSschool76,17,High school students so excited to be at HLAB blahblah,"8,3"
+137,HSfirst77,HSlast77,HS,HSschool77,17,High school students so excited to be at HLAB blahblah,"5,12"
+138,HSfirst78,HSlast78,HS,HSschool78,17,High school students so excited to be at HLAB blahblah,"2,12"
+139,HSfirst79,HSlast79,HS,HSschool79,17,High school students so excited to be at HLAB blahblah,"6,5"

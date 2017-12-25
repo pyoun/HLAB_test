@@ -60,7 +60,9 @@ public class SemAdapter extends BaseAdapter {
         String seminfo = values[position].seminarName + "\n"
                 + values[position].cmName + ", " + values[position].ecName;
         viewHolder.txtName.setText(seminfo);
-        viewHolder.icon.setImageResource(images[position]);
+        //viewHolder.icon.setImageResource(images[position]);
+        // currently set to "images[0]" because placeholder images
+        viewHolder.icon.setImageResource(images[0]);
 
         return convertView;
     }

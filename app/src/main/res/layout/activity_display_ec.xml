@@ -9,8 +9,7 @@
     <ListView
         android:id="@+id/EClist"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:dividerHeight="1dp">
+        android:layout_height="fill_parent">
     </ListView>
 
 </LinearLayout>
