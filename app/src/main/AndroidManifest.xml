@@ -32,6 +32,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DisplayPplGrps" />
         </activity>
+        <!-- Show EC info -->
+        <activity android:name=".DisplayECInfo"
+            android:parentActivityName=".DisplayEC" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayEC" />
+        </activity>
+
         <!-- Show CMs -->
         <activity android:name=".DisplayCM"
             android:parentActivityName=".DisplayPplGrps" >
@@ -39,12 +47,26 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DisplayPplGrps" />
         </activity>
+        <!-- Show CM info -->
+        <activity android:name=".DisplayCMInfo"
+            android:parentActivityName=".DisplayCM" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayCM" />
+        </activity>
         <!-- Show HS students -->
         <activity android:name=".DisplayHS"
             android:parentActivityName=".DisplayPplGrps" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".DisplayPplGrps" />
+        </activity>
+        <!-- Show HS info -->
+        <activity android:name=".DisplayHSInfo"
+            android:parentActivityName=".DisplayHS" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplayHS" />
         </activity>
 
         <!-- Show seminars -->
@@ -54,12 +76,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <!-- Show seminars -->
+        <!-- Show seminar info -->
         <activity android:name=".DisplaySeminarInfo"
             android:parentActivityName=".DisplaySeminars" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".DisplaySeminars" />
         </activity>
 
     </application>
