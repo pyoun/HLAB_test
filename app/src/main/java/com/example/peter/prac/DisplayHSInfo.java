@@ -16,7 +16,6 @@ public class DisplayHSInfo extends AppCompatActivity {
         setContentView(R.layout.activity_display_hs_info);
 
         TextView hsInfo = (TextView) findViewById(R.id.HSInfo);
-        hsInfo.setMovementMethod(new ScrollingMovementMethod());
         Bundle extras = getIntent().getExtras();
 
         String name = extras.getString("name");

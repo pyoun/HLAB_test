@@ -19,7 +19,6 @@ public class DisplayECInfo extends AppCompatActivity{
         setContentView(R.layout.activity_display_ec_info);
 
         TextView ecInfo = (TextView) findViewById(R.id.ECInfo);
-        ecInfo.setMovementMethod(new ScrollingMovementMethod());
         Bundle extras = getIntent().getExtras();
 
         String name = extras.getString("name");

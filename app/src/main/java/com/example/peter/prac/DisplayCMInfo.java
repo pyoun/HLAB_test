@@ -16,7 +16,7 @@ public class DisplayCMInfo extends AppCompatActivity {
         setContentView(R.layout.activity_display_cm_info);
 
         TextView cmInfo = (TextView) findViewById(R.id.CMInfo);
-        cmInfo.setMovementMethod(new ScrollingMovementMethod());
+        //cmInfo.setMovementMethod(new ScrollingMovementMethod());
         Bundle extras = getIntent().getExtras();
 
         String name = extras.getString("name");
