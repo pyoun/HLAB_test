@@ -60,7 +60,10 @@ public class ListAdapter extends BaseAdapter {
         String personInfo = values[position].firstName + " " + values[position].lastName + "\n"
                 + values[position].age + ", " + values[position].school;
         viewHolder.txtName.setText(personInfo);
-        viewHolder.icon.setImageResource(images[position]);
+        // Change icon line to the line below:
+        // viewHolder.icon.setImageResource(images[position]);
+        // currently set to "images[0]" because placeholder images
+        viewHolder.icon.setImageResource(images[0]);
 
         return convertView;
     }
