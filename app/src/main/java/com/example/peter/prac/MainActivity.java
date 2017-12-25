@@ -26,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    // Called when the user taps Schedule button
+    public void showSchedule(View view) {
+        Intent intent = new Intent(this, DisplaySchedule.class);
+        startActivity(intent);
+    }
+
 
 }
