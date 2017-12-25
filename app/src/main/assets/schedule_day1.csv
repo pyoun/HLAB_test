@@ -1,0 +1,12 @@
+eventId,startTime,endTime,eventName,eventLocation,eventInfo
+0,07:00,07:30,Wake up,,
+1,07:30,09:00,Breakfast & Preparation,Cafeteria,
+2,09:15,10:45,Seminar 1,Appropriate seminar room,First seminar session
+3,11:00,12:30,Seminar 2,Appropriate seminar room,Second seminar session
+4,12:45,13:45,Lunch,Dining hall,
+5,14:00,16:00,House bonding activity,TBA,Ask HLs for location
+6,16:00,18:30,Guest lecture,Auditorium,Attendance mandatory
+7,18:30,20:00,Dinner,Dining hall,Guest attendance
+8,20:00,22:00,Free interaction,"Rooms 101, 102, 103",
+9,22:00,23:00,House reflection,Houes rooms,
+10,23:00,07:00,Sleep,In your own rooms,Immediately
