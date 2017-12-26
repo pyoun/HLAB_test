@@ -57,7 +57,20 @@ public class DisplayScheduleInfo extends AppCompatActivity {
             tempSchedule.toArray(scheduleList);
 
             String dispTxt = "";
-            
+            /* for gravity center
+            for (int i = 0; i < scheduleList.length; i++) {
+                dispTxt += scheduleList[i].startTime + " - " + scheduleList[i].endTime + "\n"
+                        + scheduleList[i].eventName + "\n"
+                        + scheduleList[i].eventLocation + "\n"
+                        + scheduleList[i].eventInfo + "\n\n";
+            }*/
+
+            for (int i = 0; i < scheduleList.length; i++) {
+                dispTxt += scheduleList[i].startTime + " - " + scheduleList[i].endTime + "\n"
+                        + scheduleList[i].eventName + "\n\n"
+                        + "Location: " + scheduleList[i].eventLocation + "\n"
+                        + "Info: " + scheduleList[i].eventInfo + "\n\n\n\n";
+            }
             scheduleInfo.setText(dispTxt);
 
         } catch (IOException e) {
