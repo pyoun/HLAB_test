@@ -14,12 +14,12 @@ import android.widget.TextView;
  * Created by Peter on 12/24/2017.
  */
 
-public class ListAdapter extends BaseAdapter {
+public class PerAdapter extends BaseAdapter {
     Context context;
     private final Person[] values;
     private final int [] images;
 
-    public ListAdapter(Context context, Person[] values, int[] images) {
+    public PerAdapter(Context context, Person[] values, int[] images) {
         this.context = context;
         this.values = values;
         this.images = images;

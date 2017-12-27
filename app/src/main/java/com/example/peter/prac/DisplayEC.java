@@ -21,7 +21,7 @@ import java.io.*;
 
 public class DisplayEC extends AppCompatActivity {
     ListView lView;
-    ListAdapter lAdapter;
+    PerAdapter lAdapter;
 
     int[] images = {R.drawable.peter_youn};
 
@@ -30,58 +30,32 @@ public class DisplayEC extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_ec);
 
-        AssetManager assetManager = getResources().getAssets();
-        InputStream inputStream = null;
-        List<Person> tempppl = new ArrayList<Person>();
+        ReadFile peopleCSV = new ReadFile();
+        final Person[] people = peopleCSV.readPplCSV(this,"EC");
+        lView = (ListView) findViewById(R.id.EClist);
+        lAdapter = new PerAdapter(this,people,images);
+        lView.setAdapter(lAdapter);
 
-        try {
-            inputStream = assetManager.open("people.csv");
-            if (inputStream != null) {
-                Log.d("X", "STREAM SUCCESS");
-            }
-            CSVReader reader = new CSVReader(
-                    new InputStreamReader(inputStream, "UTF-8"));
-            String[] line;
-            reader.readNext();
-            while ((line = reader.readNext()) != null) {
-                if (line[3].equals("EC")) {
-                    tempppl.add(new Person(Integer.parseInt(line[0]),
-                            line[1], line[2], line[3], line[4],
-                            Integer.parseInt(line[5]),
-                            line[6],0));
+        lView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent myIntent = new Intent(view.getContext(), DisplayCMInfo.class);
+                int clickedPos = parent.getPositionForView(view);
+                Person clickedPerson = people[clickedPos];
+
+                List<String> key = new ArrayList<String>();
+                List<String> val = new ArrayList<String>();
+                Collections.addAll(key, "name","info","school","intro");
+                Collections.addAll(val,clickedPerson.firstName +" "+ clickedPerson.lastName,
+                        clickedPerson.age + ", " + clickedPerson.role,
+                        clickedPerson.school,
+                        clickedPerson.intro);
+                for (int i = 0; i < key.size(); i++) {
+                    myIntent.putExtra(key.get(i), val.get(i));
                 }
+
+                startActivityForResult(myIntent, 0);
             }
-            final Person[] people = new Person[ tempppl.size() ];
-            tempppl.toArray(people);
-            // the three lines below determine the view
-            // move outside of try when deleting try-catch
-            lView = (ListView) findViewById(R.id.EClist);
-            lAdapter = new ListAdapter(this,people,images);
-            lView.setAdapter(lAdapter);
-
-            lView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(view.getContext(), DisplayECInfo.class);
-                    int clickedPos = parent.getPositionForView(view);
-                    Person clickedPerson = people[clickedPos];
-
-                    List<String> key = new ArrayList<String>();
-                    List<String> val = new ArrayList<String>();
-                    Collections.addAll(key, "name","info","school","intro");
-                    Collections.addAll(val,clickedPerson.firstName +" "+ clickedPerson.lastName,
-                            clickedPerson.age + ", " + clickedPerson.role,
-                            clickedPerson.school,
-                            clickedPerson.intro);
-                    for (int i = 0; i < key.size(); i++) {
-                        myIntent.putExtra(key.get(i), val.get(i));
-                    }
-
-                    startActivityForResult(myIntent, 0);
-                }
-            });
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        });
     }
 }
