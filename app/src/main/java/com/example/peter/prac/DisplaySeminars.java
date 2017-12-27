@@ -32,59 +32,27 @@ public class DisplaySeminars extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_seminars);
 
-        AssetManager assetManager = getResources().getAssets();
-        InputStream inputStream = null;
-        List<Seminar> tempsem = new ArrayList<Seminar>();
+        ReadFile seminarsCSV = new ReadFile();
+        final Seminar[] seminars = seminarsCSV.readSemCSV(this);
+        lView = (ListView) findViewById(R.id.SeminarList);
+        lAdapter = new SemAdapter(this, seminars, sempics);
+        lView.setAdapter(lAdapter);
 
-        try {
-            inputStream = assetManager.open("seminars.csv");
-            if (inputStream != null) {
-                Log.d("X", "STREAM SUCCESS");
-            }
-            CSVReader reader = new CSVReader(
-                    new InputStreamReader(inputStream, "UTF-8"));
-            String[] line;
-            reader.readNext();
-            while ((line = reader.readNext()) != null) {
-                tempsem.add(new Seminar(Integer.parseInt(line[0]),
-                        line[1],
-                        line[2],line[3],
-                        line[4],line[5],
-                        0));
-            }
-            //Seminar[] seminars = new Seminar[ tempsem.size() ];
-            final Seminar[] seminars = new Seminar[ tempsem.size() ];
-            tempsem.toArray(seminars);
-            // the three lines below determine the view
-            // move outside of try when deleting try-catch
-            lView = (ListView) findViewById(R.id.SeminarList);
-            lAdapter = new SemAdapter(this, seminars, sempics);
-            lView.setAdapter(lAdapter);
+        lView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-            lView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(view.getContext(), DisplaySeminarInfo.class);
-                    //String pos = parent.getPositionForView(view) + "";
-                    //myIntent.putExtra("clickpos", pos);
-                    int clickedPos = parent.getPositionForView(view);
-                    Seminar clickedSem = seminars[clickedPos];
-                    String semInfo = clickedSem.seminarName+"\n\n"
-                            + clickedSem.cmName +"\n"+ clickedSem.ecName +"\n\n"
-                            + clickedSem.seminarStudents +"\n\n\n\n"
-                            + clickedSem.seminarIntro;
-                    myIntent.putExtra("SeminarInfo", semInfo);
-                    startActivityForResult(myIntent, 0);
-                }
-            });
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-            /*
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                int pos = parent.getPositionForView(view);
-                Toast.makeText(getApplicationContext(), pos + "", Toast.LENGTH_LONG).show();
-            }*/
-
+                Intent myIntent = new Intent(view.getContext(), DisplaySeminarInfo.class);
+                //String pos = parent.getPositionForView(view) + "";
+                //myIntent.putExtra("clickpos", pos);
+                int clickedPos = parent.getPositionForView(view);
+                Seminar clickedSem = seminars[clickedPos];
+                String semInfo = clickedSem.seminarName+"\n\n"
+                        + clickedSem.cmName +"\n"+ clickedSem.ecName +"\n\n"
+                        + clickedSem.seminarStudents +"\n\n\n\n"
+                        + clickedSem.seminarIntro;
+                myIntent.putExtra("SeminarInfo", semInfo);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

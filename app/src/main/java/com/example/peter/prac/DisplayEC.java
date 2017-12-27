@@ -1,22 +1,15 @@
 package com.example.peter.prac;
 
 import android.content.Intent;
-import android.content.res.AssetManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.opencsv.CSVReader;
-
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.io.*;
 
 
 public class DisplayEC extends AppCompatActivity {
