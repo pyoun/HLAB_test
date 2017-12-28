@@ -4,7 +4,7 @@ package com.example.peter.prac;
  * Created by Peter on 12/26/2017.
  */
 
-public class Schedule {
+public class Schedule implements Comparable<Schedule> {
     public int eventId;
     public String startTime;
     public String endTime;
@@ -39,5 +39,20 @@ public class Schedule {
         String hours = Integer.toString(duration / 60);
         String minutes = Integer.toString(duration % 60);
         return hours+" hours and " + minutes + " minutes.";
+    }
+    public int getStartTimeMins() {
+        return (Integer.parseInt(this.startTime.split(":")[0])*60
+                + Integer.parseInt(this.startTime.split(":")[1]));
+    }
+
+    @Override
+    public int compareTo(Schedule compEvent) {
+        // sorting by EventId
+        //int compId = ((Schedule) compEvent).getEventId();
+        //return this.getEventId()-compId;
+
+        // sorting by startTime
+        int compTimeAbsMin = ((Schedule) compEvent).getStartTimeMins();
+        return this.getStartTimeMins() - compTimeAbsMin;
     }
 }

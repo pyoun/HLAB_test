@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import java.util.Arrays;
+
 
 /**
  * Created by Peter on 12/26/2017.
@@ -25,6 +27,7 @@ public class DisplayScheduleInfo extends AppCompatActivity {
         String dispTxt = "";
         ReadFile schedule = new ReadFile();
         Schedule[] scheduleList = schedule.readSchCSV(this, position);
+        Arrays.sort(scheduleList);
         for (int i = 0; i < scheduleList.length; i++) {
             dispTxt += scheduleList[i].startTime + " - " + scheduleList[i].endTime + "\n"
                     + scheduleList[i].eventName + "\n\n"
