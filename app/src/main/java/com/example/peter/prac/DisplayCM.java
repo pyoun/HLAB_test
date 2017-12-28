@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class DisplayCM extends AppCompatActivity {
         ReadFile peopleCSV = new ReadFile();
         final Person[] people = peopleCSV.readPplCSV(this,"CM");
         lView = findViewById(R.id.CMlist);
+        Arrays.sort(people);
         lAdapter = new PerAdapter(this,people,images);
         lView.setAdapter(lAdapter);
 

@@ -4,7 +4,7 @@ package com.example.peter.prac;
  * Created by Peter on 12/24/2017.
  */
 
-public class Person {
+public class Person implements Comparable<Person> {
     public int uniqueId = 0;
     public String firstName = "";
     public String lastName = "";
@@ -32,5 +32,11 @@ public class Person {
     }
     public int getImageId() {
         return this.imageId;
+    }
+    @Override
+    public int compareTo(Person compPerson) {
+        String name = this.firstName + " " + this.lastName;
+        String compName = compPerson.firstName + " " + compPerson.lastName;
+        return name.compareTo(compName);
     }
 }

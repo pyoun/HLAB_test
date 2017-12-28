@@ -47,10 +47,6 @@ public class Schedule implements Comparable<Schedule> {
 
     @Override
     public int compareTo(Schedule compEvent) {
-        // sorting by EventId
-        //int compId = ((Schedule) compEvent).getEventId();
-        //return this.getEventId()-compId;
-
         // sorting by startTime
         int compTimeAbsMin = ((Schedule) compEvent).getStartTimeMins();
         return this.getStartTimeMins() - compTimeAbsMin;

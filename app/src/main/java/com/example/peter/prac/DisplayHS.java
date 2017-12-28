@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class DisplayHS extends AppCompatActivity {
         ReadFile peopleCSV = new ReadFile();
         final Person[] people = peopleCSV.readPplCSV(this,"HS");
         lView = (ListView) findViewById(R.id.HSlist);
+        Arrays.sort(people);
         lAdapter = new PerAdapter(this,people,images);
         lView.setAdapter(lAdapter);
 
